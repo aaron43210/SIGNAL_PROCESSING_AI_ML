@@ -401,15 +401,6 @@ def fig_signal_peaks():
     print(f'  record {idx}: {len(peaks)} peaks')
 
 
-def fig_gat_curves():
-    """Notebook figure of the GAT training curves with its notebook title cropped."""
-    from PIL import Image
-    src = os.path.join(HERE, 'notebook_images', 'gat_training_curves.png')
-    im = Image.open(src)
-    im.crop((0, 40, im.width, im.height)).save(os.path.join(OUT, 'gat_training_curves.png'))
-    print('wrote figs/gat_training_curves.png')
-
-
 # ==========================================================================
 # 6. Edge-readiness analysis (arithmetic on logged architectures)
 # ==========================================================================

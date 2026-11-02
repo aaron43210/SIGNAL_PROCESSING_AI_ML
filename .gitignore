@@ -21,3 +21,6 @@ response_to_reviewers.md
 
 # Camera-trap frames show identifiable people; regenerate with build_report.py
 PROJECT/class_verification/out/
+
+# Files removed from the repository, kept locally
+_archive/

@@ -1,9 +1,0 @@
-model,params,stored_kb,stored_basis,ops,ops_unit,peak_working_kb
-GAT,45058,161.3,logged INT8 file,2973952,MAC,76.9
-ANN,1182466,4619.0,"FP32, 4 B/param",1180160,MAC,10.0
-XGBoost (saved),,699.2,saved .joblib,1500,comparison,0.1
-XGBoost (C arrays),,94.9,saved-model node count,1500,comparison,0.1
-7-NN,,11692.4,stored train set,1496628,MAC,417.6
-Logistic reg.,29,0.1,"FP32, 4 B/param",28,MAC,0.1
-GCN,8453,33.0,"FP32, 4 B/param",550880,MAC,40.0
-KAN,14080,55.0,"FP32, 4 B/param",12672,MAC,2.0
