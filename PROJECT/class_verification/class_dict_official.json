@@ -1,0 +1,6 @@
+{
+  "_source": "Dropbox share (dset_allspec_150/class_dict.pkl), decoded with pickletools without unpickling",
+  "_note": "Family-level labels as shipped with the dataset authors' dset_allspec_150 folder. Applied here to dset_allspec_150_chunks_clean.nc by assumption (see report).",
+  "HOMINIDAE": 0, "ELEPHANTIDAE": 1, "SUIDAE": 2, "FELIDAE": 3, "NUMIDIDAE": 4, "BOVIDAE": 5,
+  "GIRAFFIDAE": 6, "HYAENIDAE": 7, "LEPORIDAE": 8, "EQUIDAE": 9, "MUSTELIDAE": 10, "HIPPOPOTAMIDAE": 11
+}

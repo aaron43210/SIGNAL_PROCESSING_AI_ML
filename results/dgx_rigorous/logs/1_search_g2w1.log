@@ -1,0 +1,52 @@
+23:07:03 worker g2w1 on cuda:0 (NVIDIA A100-SXM4-80GB), 32 CPU threads
+23:07:04 start 0_gat_search__GAT__f0__09b2ce41
+23:08:35 done 0_gat_search__GAT__f0__09b2ce41 91s
+23:08:36 start 0_gat_search__GAT__f0__87b9f087
+23:10:49 done 0_gat_search__GAT__f0__87b9f087 134s
+23:10:49 start 0_gat_search__GAT__f1__23b141f6
+23:12:36 done 0_gat_search__GAT__f1__23b141f6 107s
+23:12:36 start 0_gat_search__GAT__f1__e4ee6bf9
+23:13:27 done 0_gat_search__GAT__f1__e4ee6bf9 51s
+23:13:27 start 0_gat_search__GAT__f2__23b141f6
+23:14:38 done 0_gat_search__GAT__f2__23b141f6 70s
+23:14:38 start 0_gat_search__GAT__f3__0790e356
+23:15:39 done 0_gat_search__GAT__f3__0790e356 61s
+23:15:39 start 0_gat_search__GAT__f3__5df2d43a
+23:16:55 done 0_gat_search__GAT__f3__5df2d43a 76s
+23:16:56 start 0_gat_search__GAT__f4__0790e356
+23:18:17 done 0_gat_search__GAT__f4__0790e356 81s
+23:18:17 start 0_gat_search__GAT__f4__b87ab587
+23:19:32 done 0_gat_search__GAT__f4__b87ab587 75s
+23:19:32 start 1_ml__SVM__RBF__f3
+23:23:42 SVM (RBF) fold 3 seed 0: BA 0.520 MCC 0.020 Giraffe R 0.328
+23:23:42 done 1_ml__SVM__RBF__f3 250s
+23:23:42 start 1_nn_search__ANN__all_windows__f2__c2436e0e
+23:24:17 done 1_nn_search__ANN__all_windows__f2__c2436e0e 35s
+23:24:17 start 1_nn_search__ANN__all_windows__f3__40680330
+23:24:29 done 1_nn_search__ANN__all_windows__f3__40680330 12s
+23:24:29 start 1_nn_search__ANN__all_windows__f3__9bb47a7a
+23:25:06 done 1_nn_search__ANN__all_windows__f3__9bb47a7a 37s
+23:25:06 start 1_nn_search__ANN__all_windows__f4__c2436e0e
+23:25:26 done 1_nn_search__ANN__all_windows__f4__c2436e0e 20s
+23:25:26 start 1_nn_search__ANN__f0__9bb47a7a
+23:25:38 done 1_nn_search__ANN__f0__9bb47a7a 11s
+23:25:38 start 1_nn_search__ANN__f1__40680330
+23:26:06 done 1_nn_search__ANN__f1__40680330 28s
+23:26:06 start 1_nn_search__ANN__f2__5a7ed3d7
+23:26:16 done 1_nn_search__ANN__f2__5a7ed3d7 10s
+23:26:16 start 1_nn_search__ANN__f2__f8d3fa0d
+23:26:28 done 1_nn_search__ANN__f2__f8d3fa0d 12s
+23:26:28 start 1_nn_search__ANN__f3__f8d3fa0d
+23:27:12 done 1_nn_search__ANN__f3__f8d3fa0d 45s
+23:27:13 start 2_ml__Grad__boosting__f2
+23:28:31 Grad. boosting fold 2 seed 0: BA 0.581 MCC 0.079 Giraffe R 0.589
+23:29:17 Grad. boosting fold 2 seed 1: BA 0.581 MCC 0.079 Giraffe R 0.589
+23:30:02 Grad. boosting fold 2 seed 2: BA 0.581 MCC 0.079 Giraffe R 0.589
+23:30:02 done 2_ml__Grad__boosting__f2 169s
+23:30:02 start 3_nn_search__GCN__f4__f0b6a612
+23:30:24 done 3_nn_search__GCN__f4__f0b6a612 22s
+23:30:24 start 3_nn_search__KAN__f1__b03d7ff6
+23:32:03 done 3_nn_search__KAN__f1__b03d7ff6 99s
+23:32:03 start 3_nn_search__KAN__f4__e66ef91e
+23:33:04 done 3_nn_search__KAN__f4__e66ef91e 61s
+23:33:04 worker g2w1: no jobs left

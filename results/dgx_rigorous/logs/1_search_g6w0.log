@@ -1,0 +1,114 @@
+23:07:28 worker g6w0 on cuda:0 (NVIDIA A100-SXM4-80GB), 32 CPU threads
+23:07:29 start 0_gat_search__GAT__f0__23b141f6
+23:09:45 done 0_gat_search__GAT__f0__23b141f6 136s
+23:09:45 start 0_gat_search__GAT__f1__09b2ce41
+23:11:23 done 0_gat_search__GAT__f1__09b2ce41 98s
+23:11:23 start 0_gat_search__GAT__f1__8e3d21a6
+23:13:17 done 0_gat_search__GAT__f1__8e3d21a6 114s
+23:13:17 start 0_gat_search__GAT__f2__14aca102
+23:14:14 done 0_gat_search__GAT__f2__14aca102 57s
+23:14:14 start 0_gat_search__GAT__f2__b87ab587
+23:15:03 done 0_gat_search__GAT__f2__b87ab587 48s
+23:15:03 start 0_gat_search__GAT__f3__14aca102
+23:16:19 done 0_gat_search__GAT__f3__14aca102 77s
+23:16:20 start 0_gat_search__GAT__f3__c9ab445b
+23:17:14 done 0_gat_search__GAT__f3__c9ab445b 54s
+23:17:14 start 0_gat_search__GAT__f4__14aca102
+23:18:15 done 0_gat_search__GAT__f4__14aca102 61s
+23:18:15 start 0_gat_search__GAT__f4__9e162365
+23:19:37 done 0_gat_search__GAT__f4__9e162365 82s
+23:19:38 start 1_nn_search__1D_CNN__f0__25f2940a
+23:20:00 done 1_nn_search__1D_CNN__f0__25f2940a 22s
+23:20:00 start 1_nn_search__1D_CNN__f0__636bf0bc
+23:20:12 done 1_nn_search__1D_CNN__f0__636bf0bc 12s
+23:20:12 start 1_nn_search__1D_CNN__f1__25f2940a
+23:20:34 done 1_nn_search__1D_CNN__f1__25f2940a 22s
+23:20:35 start 1_nn_search__1D_CNN__f1__c55e9ee9
+23:20:57 done 1_nn_search__1D_CNN__f1__c55e9ee9 22s
+23:20:57 start 1_nn_search__1D_CNN__f2__b5f2c9e1
+23:21:10 done 1_nn_search__1D_CNN__f2__b5f2c9e1 13s
+23:21:11 start 1_nn_search__1D_CNN__f3__25f2940a
+23:21:38 done 1_nn_search__1D_CNN__f3__25f2940a 28s
+23:21:39 start 1_nn_search__1D_CNN__f3__b5f2c9e1
+23:21:54 done 1_nn_search__1D_CNN__f3__b5f2c9e1 15s
+23:21:54 start 1_nn_search__1D_CNN__f4__636bf0bc
+23:22:05 done 1_nn_search__1D_CNN__f4__636bf0bc 11s
+23:22:05 start 1_nn_search__1D_CNN__f4__b5f2c9e1
+23:22:25 done 1_nn_search__1D_CNN__f4__b5f2c9e1 20s
+23:22:25 start 1_nn_search__ANN__all_windows__f0__9bb47a7a
+23:22:52 done 1_nn_search__ANN__all_windows__f0__9bb47a7a 27s
+23:22:53 start 1_nn_search__ANN__all_windows__f1__5a7ed3d7
+23:23:24 done 1_nn_search__ANN__all_windows__f1__5a7ed3d7 32s
+23:23:25 start 1_nn_search__ANN__all_windows__f2__5a7ed3d7
+23:24:48 done 1_nn_search__ANN__all_windows__f2__5a7ed3d7 84s
+23:24:48 start 1_nn_search__ANN__all_windows__f4__9bb47a7a
+23:25:30 done 1_nn_search__ANN__all_windows__f4__9bb47a7a 42s
+23:25:30 start 1_nn_search__ANN__f0__e37a67f7
+23:25:51 done 1_nn_search__ANN__f0__e37a67f7 21s
+23:25:51 start 1_nn_search__ANN__f1__9bb47a7a
+23:26:09 done 1_nn_search__ANN__f1__9bb47a7a 17s
+23:26:09 start 1_nn_search__ANN__f2__9bb47a7a
+23:26:19 done 1_nn_search__ANN__f2__9bb47a7a 10s
+23:26:19 start 1_nn_search__ANN__f3__40680330
+23:27:00 done 1_nn_search__ANN__f3__40680330 40s
+23:27:00 start 1_nn_search__ANN__f4__e37a67f7
+23:27:34 done 1_nn_search__ANN__f4__e37a67f7 34s
+23:27:35 start 2_ml__Random_forest__f2
+23:27:38 Random forest fold 2 seed 0: BA 0.572 MCC 0.088 Giraffe R 0.330
+23:27:40 Random forest fold 2 seed 1: BA 0.567 MCC 0.084 Giraffe R 0.309
+23:27:41 Random forest fold 2 seed 2: BA 0.574 MCC 0.092 Giraffe R 0.331
+23:27:41 done 2_ml__Random_forest__f2 6s
+23:27:41 start 2_ml__XGBoost__all_windows__f0
+23:27:47 XGBoost [all windows] fold 0 seed 0: BA 0.492 MCC -0.029 Giraffe R 0.071
+23:27:47 XGBoost [all windows] fold 0 seed 1: BA 0.492 MCC -0.029 Giraffe R 0.071
+23:27:48 XGBoost [all windows] fold 0 seed 2: BA 0.492 MCC -0.029 Giraffe R 0.071
+23:27:48 done 2_ml__XGBoost__all_windows__f0 7s
+23:27:48 start 2_ml__XGBoost__all_windows__f3
+23:27:53 XGBoost [all windows] fold 3 seed 0: BA 0.598 MCC 0.085 Giraffe R 0.543
+23:27:53 XGBoost [all windows] fold 3 seed 1: BA 0.598 MCC 0.085 Giraffe R 0.543
+23:27:54 XGBoost [all windows] fold 3 seed 2: BA 0.598 MCC 0.085 Giraffe R 0.543
+23:27:54 done 2_ml__XGBoost__all_windows__f3 6s
+23:27:54 start 2_ml__XGBoost__f1
+23:28:00 XGBoost fold 1 seed 0: BA 0.545 MCC 0.138 Giraffe R 0.120
+23:28:00 XGBoost fold 1 seed 1: BA 0.545 MCC 0.138 Giraffe R 0.120
+23:28:01 XGBoost fold 1 seed 2: BA 0.545 MCC 0.138 Giraffe R 0.120
+23:28:01 done 2_ml__XGBoost__f1 7s
+23:28:01 start 2_ml__XGBoost__f4
+23:28:06 XGBoost fold 4 seed 0: BA 0.542 MCC 0.054 Giraffe R 0.202
+23:28:07 XGBoost fold 4 seed 1: BA 0.542 MCC 0.054 Giraffe R 0.202
+23:28:08 XGBoost fold 4 seed 2: BA 0.542 MCC 0.054 Giraffe R 0.202
+23:28:08 done 2_ml__XGBoost__f4 7s
+23:28:08 start 2_ml__XGBoost__pooled_peaks__f3
+23:28:13 XGBoost (pooled peaks) fold 3 seed 0: BA 0.523 MCC 0.055 Giraffe R 0.083
+23:28:15 XGBoost (pooled peaks) fold 3 seed 1: BA 0.523 MCC 0.055 Giraffe R 0.083
+23:28:16 XGBoost (pooled peaks) fold 3 seed 2: BA 0.523 MCC 0.055 Giraffe R 0.083
+23:28:16 done 2_ml__XGBoost__pooled_peaks__f3 8s
+23:28:16 start 3_nn_search__GCN__f0__50e51685
+23:28:34 done 3_nn_search__GCN__f0__50e51685 18s
+23:28:34 start 3_nn_search__GCN__f1__9a31dd11
+23:28:44 done 3_nn_search__GCN__f1__9a31dd11 10s
+23:28:44 start 3_nn_search__GCN__f1__a0c37c8e
+23:28:54 done 3_nn_search__GCN__f1__a0c37c8e 9s
+23:28:54 start 3_nn_search__GCN__f2__9a31dd11
+23:29:03 done 3_nn_search__GCN__f2__9a31dd11 9s
+23:29:03 start 3_nn_search__GCN__f2__f0b6a612
+23:29:21 done 3_nn_search__GCN__f2__f0b6a612 18s
+23:29:22 start 3_nn_search__GCN__f3__a0c37c8e
+23:29:35 done 3_nn_search__GCN__f3__a0c37c8e 13s
+23:29:35 start 3_nn_search__GCN__f4__50e51685
+23:29:48 done 3_nn_search__GCN__f4__50e51685 14s
+23:29:48 start 3_nn_search__GCN__f4__9a31dd11
+23:29:56 done 3_nn_search__GCN__f4__9a31dd11 8s
+23:29:56 start 3_nn_search__GCN__f4__a0c37c8e
+23:30:06 done 3_nn_search__GCN__f4__a0c37c8e 9s
+23:30:06 start 3_nn_search__KAN__f0__36e68056
+23:31:12 done 3_nn_search__KAN__f0__36e68056 67s
+23:31:12 start 3_nn_search__KAN__f2__b03d7ff6
+23:31:43 done 3_nn_search__KAN__f2__b03d7ff6 30s
+23:31:43 start 3_nn_search__KAN__f4__36e68056
+23:32:12 done 3_nn_search__KAN__f4__36e68056 29s
+23:32:12 start 3_nn_search__MLP__28_features__f0__be1984b1
+23:32:27 done 3_nn_search__MLP__28_features__f0__be1984b1 14s
+23:32:27 start 3_nn_search__MLP__28_features__f2__58759c0b
+23:32:56 done 3_nn_search__MLP__28_features__f2__58759c0b 29s
+23:32:56 worker g6w0: no jobs left

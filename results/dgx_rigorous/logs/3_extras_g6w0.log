@@ -1,0 +1,4 @@
+23:55:54 worker g6w0 on cuda:0 (NVIDIA A100-SXM4-80GB), 32 CPU threads
+23:55:55 start 1_detector__detector__p0.25_d40
+23:56:10 done 1_detector__detector__p0.25_d40 15s
+23:56:10 worker g6w0: no jobs left

@@ -1,0 +1,1 @@
+{"config": {"channels": 16, "lr": 0.0005}, "val_ba": 0.5479710927337988, "best_epoch": 5, "seconds": 37.07338762283325}

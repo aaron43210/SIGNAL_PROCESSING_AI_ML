@@ -1,0 +1,6 @@
+23:55:27 worker g2w1 on cuda:0 (NVIDIA A100-SXM4-80GB), 32 CPU threads
+23:55:29 start 0_attention__GAT_attention__f1
+23:55:46 done 0_attention__GAT_attention__f1 18s
+23:55:46 start 1_detector__detector__p0.05_d40
+23:56:08 done 1_detector__detector__p0.05_d40 21s
+23:56:08 worker g2w1: no jobs left

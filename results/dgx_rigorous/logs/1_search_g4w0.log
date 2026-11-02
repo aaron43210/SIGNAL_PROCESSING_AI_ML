@@ -1,0 +1,70 @@
+23:07:19 worker g4w0 on cuda:0 (NVIDIA A100-SXM4-80GB), 32 CPU threads
+23:07:20 start 0_gat_search__GAT__f0__14d920b8
+23:08:56 done 0_gat_search__GAT__f0__14d920b8 96s
+23:08:56 start 0_gat_search__GAT__f0__9e162365
+23:11:08 done 0_gat_search__GAT__f0__9e162365 132s
+23:11:08 start 0_gat_search__GAT__f1__5df2d43a
+23:12:08 done 0_gat_search__GAT__f1__5df2d43a 59s
+23:12:08 start 0_gat_search__GAT__f1__b87ab587
+23:12:47 done 0_gat_search__GAT__f1__b87ab587 39s
+23:12:48 start 0_gat_search__GAT__f2__0790e356
+23:13:43 done 0_gat_search__GAT__f2__0790e356 56s
+23:13:43 start 0_gat_search__GAT__f2__5df2d43a
+23:14:26 done 0_gat_search__GAT__f2__5df2d43a 43s
+23:14:26 start 0_gat_search__GAT__f2__e4ee6bf9
+23:15:32 done 0_gat_search__GAT__f2__e4ee6bf9 66s
+23:15:32 start 0_gat_search__GAT__f3__4cd2b85a
+23:16:16 done 0_gat_search__GAT__f3__4cd2b85a 44s
+23:16:16 start 0_gat_search__GAT__f3__9e162365
+23:17:32 done 0_gat_search__GAT__f3__9e162365 76s
+23:17:32 start 0_gat_search__GAT__f4__23b141f6
+23:19:24 done 0_gat_search__GAT__f4__23b141f6 112s
+23:19:25 start 1_ml__SVM__RBF__f1
+23:22:40 SVM (RBF) fold 1 seed 0: BA 0.562 MCC 0.178 Giraffe R 0.157
+23:22:40 done 1_ml__SVM__RBF__f1 195s
+23:22:40 start 1_nn_search__ANN__all_windows__f0__e37a67f7
+23:22:58 done 1_nn_search__ANN__all_windows__f0__e37a67f7 19s
+23:22:58 start 1_nn_search__ANN__all_windows__f1__b1b76c7a
+23:23:35 done 1_nn_search__ANN__all_windows__f1__b1b76c7a 36s
+23:23:35 start 1_nn_search__ANN__all_windows__f2__7833c846
+23:24:25 done 1_nn_search__ANN__all_windows__f2__7833c846 50s
+23:24:26 start 1_nn_search__ANN__all_windows__f3__7833c846
+23:24:34 done 1_nn_search__ANN__all_windows__f3__7833c846 8s
+23:24:34 start 1_nn_search__ANN__all_windows__f3__f8d3fa0d
+23:25:10 done 1_nn_search__ANN__all_windows__f3__f8d3fa0d 36s
+23:25:10 start 1_nn_search__ANN__all_windows__f4__e37a67f7
+23:25:37 done 1_nn_search__ANN__all_windows__f4__e37a67f7 27s
+23:25:37 start 1_nn_search__ANN__f0__f8d3fa0d
+23:25:53 done 1_nn_search__ANN__f0__f8d3fa0d 17s
+23:25:53 start 1_nn_search__ANN__f1__b1b76c7a
+23:26:11 done 1_nn_search__ANN__f1__b1b76c7a 17s
+23:26:11 start 1_nn_search__ANN__f2__b1b76c7a
+23:26:21 done 1_nn_search__ANN__f2__b1b76c7a 10s
+23:26:21 start 1_nn_search__ANN__f3__9bb47a7a
+23:26:53 done 1_nn_search__ANN__f3__9bb47a7a 32s
+23:26:53 start 1_nn_search__ANN__f4__b1b76c7a
+23:27:12 done 1_nn_search__ANN__f4__b1b76c7a 18s
+23:27:12 start 2_ml__Grad__boosting__f0
+23:28:31 Grad. boosting fold 0 seed 0: BA 0.549 MCC 0.047 Giraffe R 0.574
+23:29:20 Grad. boosting fold 0 seed 1: BA 0.549 MCC 0.047 Giraffe R 0.574
+23:30:09 Grad. boosting fold 0 seed 2: BA 0.530 MCC 0.029 Giraffe R 0.499
+23:30:09 done 2_ml__Grad__boosting__f0 178s
+23:30:09 start 3_nn_search__KAN__f0__b03d7ff6
+23:31:06 done 3_nn_search__KAN__f0__b03d7ff6 57s
+23:31:06 start 3_nn_search__KAN__f2__7e213912
+23:31:24 done 3_nn_search__KAN__f2__7e213912 17s
+23:31:24 start 3_nn_search__KAN__f3__36e68056
+23:31:47 done 3_nn_search__KAN__f3__36e68056 23s
+23:31:47 start 3_nn_search__KAN__f4__7e213912
+23:32:04 done 3_nn_search__KAN__f4__7e213912 18s
+23:32:05 start 3_nn_search__MLP__28_features__f0__58759c0b
+23:32:11 done 3_nn_search__MLP__28_features__f0__58759c0b 7s
+23:32:11 start 3_nn_search__MLP__28_features__f0__995a2d38
+23:32:17 done 3_nn_search__MLP__28_features__f0__995a2d38 6s
+23:32:17 start 3_nn_search__MLP__28_features__f1__995a2d38
+23:32:31 done 3_nn_search__MLP__28_features__f1__995a2d38 13s
+23:32:31 start 3_nn_search__MLP__28_features__f3__2494dfa7
+23:32:44 done 3_nn_search__MLP__28_features__f3__2494dfa7 13s
+23:32:44 start 3_nn_search__MLP__28_features__f3__be1984b1
+23:32:57 done 3_nn_search__MLP__28_features__f3__be1984b1 14s
+23:32:58 worker g4w0: no jobs left

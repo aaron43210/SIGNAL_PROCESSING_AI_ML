@@ -1,0 +1,71 @@
+23:33:40 worker g2w0 on cuda:0 (NVIDIA A100-SXM4-80GB), 32 CPU threads
+23:33:41 start 0_gat_final__GAT__f0__s0
+23:37:27 GAT fold 0 seed 0: BA 0.467 MCC -0.032 Giraffe R 0.442
+23:37:28 done 0_gat_final__GAT__f0__s0 227s
+23:37:28 start 0_gat_final__GAT__f4__s2
+23:39:33 GAT fold 4 seed 2: BA 0.554 MCC 0.112 Giraffe R 0.144
+23:39:34 done 0_gat_final__GAT__f4__s2 126s
+23:39:34 start 1_gat_final__GAT_edges_knn__f3__s0
+23:41:51 GAT edges=knn fold 3 seed 0: BA 0.524 MCC 0.045 Giraffe R 0.107
+23:41:51 done 1_gat_final__GAT_edges_knn__f3__s0 137s
+23:41:51 start 1_gat_final__GAT_edges_random__f0__s0
+23:43:39 GAT edges=random fold 0 seed 0: BA 0.644 MCC 0.378 Giraffe R 0.304
+23:43:39 done 1_gat_final__GAT_edges_random__f0__s0 108s
+23:43:40 start 1_gat_final__GAT_edges_temporal__f0__s0
+23:46:51 GAT edges=temporal fold 0 seed 0: BA 0.459 MCC -0.040 Giraffe R 0.475
+23:46:51 done 1_gat_final__GAT_edges_temporal__f0__s0 191s
+23:46:52 start 2_nn_final__1D_CNN__f0__s1
+23:47:08 1D-CNN fold 0 seed 1: BA 0.608 MCC 0.150 Giraffe R 0.342
+23:47:08 done 2_nn_final__1D_CNN__f0__s1 16s
+23:47:08 start 2_nn_final__1D_CNN__f1__s0
+23:47:32 1D-CNN fold 1 seed 0: BA 0.628 MCC 0.333 Giraffe R 0.288
+23:47:32 done 2_nn_final__1D_CNN__f1__s0 23s
+23:47:32 start 2_nn_final__1D_CNN__f1__s2
+23:47:47 1D-CNN fold 1 seed 2: BA 0.558 MCC 0.071 Giraffe R 0.515
+23:47:47 done 2_nn_final__1D_CNN__f1__s2 15s
+23:47:47 start 2_nn_final__1D_CNN__f2__s1
+23:48:00 1D-CNN fold 2 seed 1: BA 0.542 MCC 0.064 Giraffe R 0.964
+23:48:00 done 2_nn_final__1D_CNN__f2__s1 12s
+23:48:00 start 2_nn_final__1D_CNN__f2__s2
+23:48:21 1D-CNN fold 2 seed 2: BA 0.687 MCC 0.211 Giraffe R 0.594
+23:48:21 done 2_nn_final__1D_CNN__f2__s2 21s
+23:48:22 start 2_nn_final__1D_CNN__f3__s2
+23:49:08 1D-CNN fold 3 seed 2: BA 0.680 MCC 0.168 Giraffe R 0.759
+23:49:08 done 2_nn_final__1D_CNN__f3__s2 46s
+23:49:08 start 2_nn_final__ANN__all_windows__f1__s0
+23:50:03 ANN [all windows] fold 1 seed 0: BA 0.533 MCC 0.033 Giraffe R 0.691
+23:50:03 done 2_nn_final__ANN__all_windows__f1__s0 55s
+23:50:04 start 2_nn_final__ANN__all_windows__f4__s1
+23:50:29 ANN [all windows] fold 4 seed 1: BA 0.529 MCC 0.031 Giraffe R 0.448
+23:50:29 done 2_nn_final__ANN__all_windows__f4__s1 25s
+23:50:29 start 2_nn_final__ANN__f1__s0
+23:50:46 ANN fold 1 seed 0: BA 0.575 MCC 0.099 Giraffe R 0.433
+23:50:46 done 2_nn_final__ANN__f1__s0 17s
+23:50:47 start 2_nn_final__ANN__f3__s2
+23:51:06 ANN fold 3 seed 2: BA 0.562 MCC 0.065 Giraffe R 0.377
+23:51:06 done 2_nn_final__ANN__f3__s2 19s
+23:51:06 start 2_nn_final__GCN__f0__s1
+23:51:28 GCN fold 0 seed 1: BA 0.516 MCC 0.028 Giraffe R 0.943
+23:51:28 done 2_nn_final__GCN__f0__s1 22s
+23:51:28 start 2_nn_final__GCN__f3__s0
+23:52:28 GCN fold 3 seed 0: BA 0.569 MCC 0.123 Giraffe R 0.202
+23:52:28 done 2_nn_final__GCN__f3__s0 61s
+23:52:29 start 2_nn_final__KAN__f2__s0
+23:52:47 KAN fold 2 seed 0: BA 0.572 MCC 0.078 Giraffe R 0.414
+23:52:47 done 2_nn_final__KAN__f2__s0 18s
+23:52:47 start 2_nn_final__KAN__f2__s2
+23:53:05 KAN fold 2 seed 2: BA 0.574 MCC 0.080 Giraffe R 0.426
+23:53:05 done 2_nn_final__KAN__f2__s2 18s
+23:53:05 start 2_nn_final__KAN__f3__s2
+23:53:28 KAN fold 3 seed 2: BA 0.532 MCC 0.076 Giraffe R 0.101
+23:53:28 done 2_nn_final__KAN__f3__s2 23s
+23:53:28 start 2_nn_final__MLP__28_features__f0__s1
+23:53:40 MLP (28 features) fold 0 seed 1: BA 0.637 MCC 0.172 Giraffe R 0.435
+23:53:40 done 2_nn_final__MLP__28_features__f0__s1 12s
+23:53:40 start 2_nn_final__MLP__28_features__f1__s2
+23:53:52 MLP (28 features) fold 1 seed 2: BA 0.586 MCC 0.138 Giraffe R 0.323
+23:53:52 done 2_nn_final__MLP__28_features__f1__s2 12s
+23:53:52 start 2_nn_final__MLP__28_features__f3__s1
+23:54:02 MLP (28 features) fold 3 seed 1: BA 0.615 MCC 0.148 Giraffe R 0.364
+23:54:02 done 2_nn_final__MLP__28_features__f3__s1 11s
+23:54:02 worker g2w0: no jobs left

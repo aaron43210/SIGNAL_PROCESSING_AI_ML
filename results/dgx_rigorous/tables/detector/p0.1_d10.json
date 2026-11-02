@@ -1,0 +1,1 @@
+{"prominence": 0.1, "distance_samples": 10, "distance_ms": 50, "kept_elephant": 0.6767477957531244, "kept_giraffe": 0.7280722055079842, "nodes_mean": 51.44768695805273, "nodes_median": 29.0, "peaks_per_second": 5.024188179497337, "cohort": 45438, "xgb_pooled_bal_acc": 0.5351850339200193, "xgb_pooled_mcc": 0.069617700936706}

@@ -1,0 +1,1 @@
+{"config": {"hidden": 64, "heads": 4, "lr": 0.0005, "scale": "std"}, "val_ba": 0.5402429400875283, "best_epoch": 20, "seconds": 121.85069012641907}

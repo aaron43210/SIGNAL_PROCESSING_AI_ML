@@ -1,0 +1,14 @@
+23:33:56 worker g3w1 on cuda:0 (NVIDIA A100-SXM4-80GB), 32 CPU threads
+23:33:57 start 0_gat_final__GAT__f1__s0
+23:37:02 GAT fold 1 seed 0: BA 0.541 MCC 0.051 Giraffe R 0.478
+23:37:02 done 0_gat_final__GAT__f1__s0 185s
+23:37:02 start 0_gat_final__GAT__f3__s1
+23:39:57 GAT fold 3 seed 1: BA 0.513 MCC 0.035 Giraffe R 0.053
+23:39:58 done 0_gat_final__GAT__f3__s1 175s
+23:39:58 start 1_gat_final__GAT_edges_none__f0__s0
+23:45:51 GAT edges=none fold 0 seed 0: BA 0.360 MCC -0.136 Giraffe R 0.289
+23:45:51 done 1_gat_final__GAT_edges_none__f0__s0 353s
+23:45:51 start 1_gat_final__GAT_nodes_other_scaling__f1__s0
+23:54:43 GAT nodes=other scaling fold 1 seed 0: BA 0.644 MCC 0.190 Giraffe R 0.561
+23:54:44 done 1_gat_final__GAT_nodes_other_scaling__f1__s0 533s
+23:54:44 worker g3w1: no jobs left

@@ -1,0 +1,1 @@
+{"config": {"channels": 32, "lr": 0.001}, "d_in": 3, "kind": "cnn"}

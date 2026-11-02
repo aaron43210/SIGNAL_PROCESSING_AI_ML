@@ -1,0 +1,1 @@
+{"config": {"component": "x", "hidden": 512, "lr": 0.001}, "val_ba": 0.537516665888352, "best_epoch": 1, "seconds": 9.63873291015625}

@@ -1,0 +1,10 @@
+model,n,acc,acc_ci_lo,acc_ci_hi,bal_acc,macro_f1,weighted_f1,prec_giraffe,rec_giraffe,f1_giraffe,mcc,kappa,source
+GAT,10981,0.8921,0.8861,0.8978,0.5852,0.5789,0.8959,0.2005,0.2335,0.2158,0.1587,0.1582,class1_and_class6_weighted.ipynb cell 27 (figure)
+ANN,13363,0.4471,0.4387,0.4556,0.4847,0.3545,0.5674,0.0613,0.5278,0.1099,-0.0152,-0.0068,ann_classifier_weighted.ipynb cell 13 (figure)
+ANN (no std.),13363,0.9353,0.9310,0.9394,0.5000,0.4833,0.9041,0.0000,0.0000,0.0000,0.0000,0.0000,ann_classifier_unweighted.ipynb cell 14 (figure)
+Logistic reg.,13363,0.7056,0.6978,0.7133,0.6546,0.5134,0.7797,0.1256,0.5961,0.2075,0.1649,0.1127,ml_classifier.ipynb cell 16 (derived)
+SVM (RBF),13363,0.7816,0.7745,0.7885,0.7103,0.5713,0.8327,0.1729,0.6285,0.2712,0.2439,0.1889,ml_classifier.ipynb cell 16 (derived)
+7-NN,13363,0.9511,0.9473,0.9547,0.6711,0.7274,0.9424,0.7684,0.3495,0.4805,0.4982,0.4586,ml_classifier.ipynb cell 16 (derived)
+Random forest,13363,0.9254,0.9208,0.9297,0.6628,0.6726,0.9231,0.4122,0.3611,0.3849,0.3463,0.3454,ml_classifier.ipynb cell 16 (derived)
+Grad. boosting,13363,0.7299,0.7223,0.7373,0.7435,0.5505,0.7977,0.1617,0.7593,0.2666,0.2605,0.1790,ml_classifier.ipynb cell 16 (derived)
+XGBoost,13363,0.9248,0.9202,0.9291,0.8876,0.7754,0.9349,0.4560,0.8449,0.5923,0.5871,0.5549,ml_classifier.ipynb cell 20 (figure)

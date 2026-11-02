@@ -1,0 +1,7 @@
+Highlights
+
+- Thirteen seismic classifiers compared with whole stations held out for testing
+- On unseen stations every model reached balanced accuracy of only 0.53 to 0.60
+- Random window splits had inflated XGBoost balanced accuracy from 0.59 to 0.89
+- Random edges matched the peak graph: graph topology added no measurable value
+- GAT, GCN, KAN, MLP and XGBoost fit a 512 KB microcontroller flash budget

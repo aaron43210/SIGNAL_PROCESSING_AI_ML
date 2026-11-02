@@ -1,0 +1,4 @@
+23:55:48 worker g4w1 on cuda:0 (NVIDIA A100-SXM4-80GB), 32 CPU threads
+23:55:50 start 1_detector__detector__p0.1_d40
+23:56:07 done 1_detector__detector__p0.1_d40 17s
+23:56:07 worker g4w1: no jobs left

@@ -1,0 +1,60 @@
+23:07:34 worker g6w1 on cuda:0 (NVIDIA A100-SXM4-80GB), 32 CPU threads
+23:07:35 start 0_gat_search__GAT__f0__4cd2b85a
+23:09:29 done 0_gat_search__GAT__f0__4cd2b85a 114s
+23:09:29 start 0_gat_search__GAT__f0__e4ee6bf9
+23:10:50 done 0_gat_search__GAT__f0__e4ee6bf9 81s
+23:10:51 start 0_gat_search__GAT__f1__4cd2b85a
+23:12:50 done 0_gat_search__GAT__f1__4cd2b85a 119s
+23:12:50 start 0_gat_search__GAT__f2__09b2ce41
+23:13:41 done 0_gat_search__GAT__f2__09b2ce41 51s
+23:13:41 start 0_gat_search__GAT__f2__4cd2b85a
+23:14:19 done 0_gat_search__GAT__f2__4cd2b85a 38s
+23:14:19 start 0_gat_search__GAT__f2__c9ab445b
+23:15:12 done 0_gat_search__GAT__f2__c9ab445b 53s
+23:15:12 start 0_gat_search__GAT__f3__14d920b8
+23:16:23 done 0_gat_search__GAT__f3__14d920b8 71s
+23:16:23 start 0_gat_search__GAT__f3__d48600be
+23:17:23 done 0_gat_search__GAT__f3__d48600be 60s
+23:17:23 start 0_gat_search__GAT__f4__221d23e2
+23:18:06 done 0_gat_search__GAT__f4__221d23e2 43s
+23:18:07 start 0_gat_search__GAT__f4__87b9f087
+23:19:36 done 0_gat_search__GAT__f4__87b9f087 89s
+23:19:36 start 1_ml__SVM__RBF__f4
+23:22:10 SVM (RBF) fold 4 seed 0: BA 0.509 MCC 0.009 Giraffe R 0.230
+23:22:10 done 1_ml__SVM__RBF__f4 154s
+23:22:10 start 1_nn_search__1D_CNN__f4__c55e9ee9
+23:22:44 done 1_nn_search__1D_CNN__f4__c55e9ee9 33s
+23:22:44 start 1_nn_search__ANN__all_windows__f0__f8d3fa0d
+23:23:06 done 1_nn_search__ANN__all_windows__f0__f8d3fa0d 22s
+23:23:06 start 1_nn_search__ANN__all_windows__f1__e37a67f7
+23:24:02 done 1_nn_search__ANN__all_windows__f1__e37a67f7 55s
+23:24:02 start 1_nn_search__ANN__all_windows__f2__f8d3fa0d
+23:24:48 done 1_nn_search__ANN__all_windows__f2__f8d3fa0d 46s
+23:24:48 start 1_nn_search__ANN__all_windows__f4__b1b76c7a
+23:25:24 done 1_nn_search__ANN__all_windows__f4__b1b76c7a 36s
+23:25:25 start 1_nn_search__ANN__f0__7833c846
+23:25:56 done 1_nn_search__ANN__f0__7833c846 31s
+23:25:56 start 1_nn_search__ANN__f1__e37a67f7
+23:26:24 done 1_nn_search__ANN__f1__e37a67f7 28s
+23:26:25 start 1_nn_search__ANN__f3__c2436e0e
+23:26:48 done 1_nn_search__ANN__f3__c2436e0e 23s
+23:26:48 start 1_nn_search__ANN__f4__5a7ed3d7
+23:27:17 done 1_nn_search__ANN__f4__5a7ed3d7 29s
+23:27:18 start 2_ml__Grad__boosting__f3
+23:28:53 Grad. boosting fold 3 seed 0: BA 0.622 MCC 0.122 Giraffe R 0.528
+23:29:45 Grad. boosting fold 3 seed 1: BA 0.622 MCC 0.122 Giraffe R 0.528
+23:30:36 Grad. boosting fold 3 seed 2: BA 0.622 MCC 0.122 Giraffe R 0.528
+23:30:36 done 2_ml__Grad__boosting__f3 199s
+23:30:36 start 3_nn_search__KAN__f1__e66ef91e
+23:31:40 done 3_nn_search__KAN__f1__e66ef91e 64s
+23:31:40 start 3_nn_search__KAN__f3__b03d7ff6
+23:32:04 done 3_nn_search__KAN__f3__b03d7ff6 24s
+23:32:05 start 3_nn_search__MLP__28_features__f0__2494dfa7
+23:32:16 done 3_nn_search__MLP__28_features__f0__2494dfa7 11s
+23:32:16 start 3_nn_search__MLP__28_features__f1__58759c0b
+23:32:30 done 3_nn_search__MLP__28_features__f1__58759c0b 14s
+23:32:30 start 3_nn_search__MLP__28_features__f2__be1984b1
+23:32:45 done 3_nn_search__MLP__28_features__f2__be1984b1 15s
+23:32:45 start 3_nn_search__MLP__28_features__f4__2494dfa7
+23:32:53 done 3_nn_search__MLP__28_features__f4__2494dfa7 8s
+23:32:53 worker g6w1: no jobs left
